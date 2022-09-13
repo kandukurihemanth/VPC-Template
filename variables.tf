@@ -3,6 +3,14 @@ variable "create_vpc" {
   type        = bool
   
 }
+variable "access_key" {
+  description = "access key to be provided by user"
+  type        = string
+}
+variable "secret_key" {
+  description = "secret key to be provided by user"
+  type        = string
+}
 variable "vpc_name" {
   description = " name of VPC"
   type = string

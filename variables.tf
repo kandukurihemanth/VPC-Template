@@ -1,3 +1,10 @@
+variable "access_key"{
+  type = string
+}
+variable "secret_key"{
+  type = string
+}
+
 variable "create_vpc" {
   description = "Controls if VPC should be created (it affects almost all resources)"
   type        = bool
